@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import "header/header.css";
+@import "components/search.css";
+@import "components/choose.css";
+@import "components/cabinet-button.css";
+@import "components/card.css";
+@import "footer/footer.css";
+@import "components/presentation-card.css";
+@import "components/restaurant-navigation.css";
+@import "components/menu-card.css";
+@import "variables.css";
+@import "components/navigation.css";
+@import "paralax/style.css";
+@import "paralax/demo.css";
+@import "components/partners.css";
+
+
+body {
+  margin: 0;
+  padding: 0;
+}

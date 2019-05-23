@@ -1,0 +1,29 @@
+.navigation {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  width: 720px;
+  margin-top: 25px;
+}
+
+.navigation__nav {
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+  height: 80px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.navigation__item {
+  font-family: var(--main-font);
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--gray-font);
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.navigation__item:hover {
+  color: var(--green);
+}

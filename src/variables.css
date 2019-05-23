@@ -1,0 +1,22 @@
+html {
+  --main-font: Roboto, sans-serif;
+  --border-btn: #e0e0e0;
+  --color-btn: #262626;
+  --white: #fff;
+  --font-color: #1d1d1d;
+  --gray-font: #626262;
+  --hover: #f9f9f9;
+  --green: #327430;
+  --lightgray: lightgray;
+  --background-2: #f2f2f2;
+  --background-3: #262626;
+  --background-4: #3b3b3b;
+  --background-5: #000;
+  --background-6: #59bd5a;
+  --color-3: #49a144;
+  --brand: #00adee;
+  --font_lato: lato, sans-serif;
+  --background_for_six_section: #fafafa;
+  --color_for_h: #333;
+
+}

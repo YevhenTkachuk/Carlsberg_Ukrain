@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 366px;
+  text-decoration: none;
+}
+
+.card__restaurant {
+  font-family: "Arial Rounded MT Bold";
+  font-size: 16px;
+  color: var(--font-color);
+  margin-top: 16px;
+}
+
+.card__category {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--gray-font);
+  margin: 4px 0;
+}
+
+.card__time {
+  font-family: var(--main-font);
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--font-color);
+}
+
+.news-image {
+  width: calc(100%);
+  height: 256px;
+  margin-left: 1px;
+  position: relative;
+  bottom: 0;
+  transition: top 0.3s ease-out;
+  padding-bottom: 10px;
+}
+
+.news-image:hover {
+  transform: scale(0.97);
+}

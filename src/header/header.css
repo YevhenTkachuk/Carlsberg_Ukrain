@@ -1,0 +1,138 @@
+.header {
+  height: 71px;
+  background: var(--white);
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header__wrapper {
+  width: 1124px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 130px;
+  margin-top: 5px;
+}
+
+.header__section--nav-container {
+  float: left;
+}
+
+.nav-container {
+  text-align: right;
+}
+
+.nav {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.nav__item {
+  height: 31px;
+  display: inline-block;
+  margin-left: -4px;
+  overflow: hidden;
+}
+
+.nav__link {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  padding: 0 17px;
+  text-transform: uppercase;
+}
+
+.nav__link:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 1px;
+  overflow: hidden;
+  bottom: 0;
+  z-index: 4;
+  left: 50%;
+  right: 50%;
+  width: 0;
+  transition: all 200ms cubic-bezier(0.6, -0.28, 0.73, 0.04);
+}
+
+.theme-nav-decoration:after {
+  background: #93a4a0;
+}
+
+.subnav {
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 72px;
+  left: 0;
+  right: 0;
+  max-height: 0;
+  font-size: 14px;
+}
+
+.subnav__wrapper {
+  padding: 80px 20px 60px;
+  transform: translate3d(0, -100%, 0);
+  transition: all 350ms cubic-bezier(0.6, 0.04, 0.3, 1);
+}
+
+.theme-bg-page {
+  border-color: #fff;
+  background: #fff;
+}
+
+.cf {
+  zoom: 1;
+}
+
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.subnav__col {
+  float: left;
+  vertical-align: top;
+  padding: 0 20px;
+  text-align: left;
+  width: 16.67%;
+}
+
+.subnav__heading {
+  height: 50px;
+}
+
+.subnav__link--heading {
+  font-size: 14px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.subnav__link {
+  display: inline-block;
+  margin-top: 13px;
+  padding: 1px 5px;
+  transition: all 150ms cubic-bezier(0.64,0.04,0.35,1);
+}
+
+.subnav__item {
+  display: block;
+}
+
+.subnav__list {
+  list-style-type: none;
+}
+
+.cf:after {
+  clear: both;
+}
+
+
